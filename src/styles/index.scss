@@ -1,0 +1,13 @@
+@import "reset.scss";
+@import "variables/global.scss";
+@import "themes/light.scss";
+@import "themes/dark.scss";
+
+.app {
+  font: var(--font-m);
+  // font-family: "Courier New", Courier, monospace;
+  // font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: var(--bg-color);
+  color: var(--primary-color);
+  min-height: 100vh;
+}
